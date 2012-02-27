@@ -14,13 +14,15 @@
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setName: @"Unload"];
+		[self setPluginName: @"Unload"];
     }
     return self;
 }
 
-- (BOOL) hasSelectorField {
-	return NO;
-}
+
+- (BOOL) hasSelectorField { 
+	return NO; 
+} 
 
 @end
+ 
